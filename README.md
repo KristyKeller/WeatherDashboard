@@ -1,5 +1,5 @@
 # Weather Dashboard
-https://kristykeller.github.io/weather-dashboard/## Application 
+https://kristykeller.github.io/weather-dashboard/
 
 ## Application 
 
