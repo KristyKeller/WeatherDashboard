@@ -19,6 +19,45 @@ body {
 
  .recent-search {
      margin-top: 20px;
- }
+}
 
- /* background-color: #20315A;  */
+#one {
+
+     background-color: #BCF2FF;
+     color: black;
+     width: 150px;
+     height: 150px;
+     }
+
+ #two {
+
+    background-color: #BCF2FF;
+    color: black;
+    width: 150px;
+    height: 150px;
+   }
+
+#three {
+
+    background-color: #BCF2FF;
+    color: black;
+    width: 150px;
+    height: 150px;
+   }
+
+#four {
+
+    background-color: #BCF2FF;
+    color: black;
+    width: 150px;
+    height: 150px;
+   }
+
+#five {
+
+    background-color: #BCF2FF;
+    color: black;
+    width: 150px;
+    height: 150px;
+}
+

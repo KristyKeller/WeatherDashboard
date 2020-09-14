@@ -10,12 +10,16 @@
     <title>Weather Dashboard</title>
 </head>
 <!-- header -->
+
 <body>
     <header class="jumbotron">
         <h1 class="display-3">Weather Dashboard</h1>
     </header>
+
     <!-- search for weather location -->
     <div class="container">
+        <section class="row">
+            <section class="col-md-12">
         <section class="search-button">
             <h5>Search for a city:</h5>
         </section>
@@ -25,25 +29,43 @@
                 <button id="searchBtn" class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
             </form>
         </section>
-
+            </section>
+        </section>
+        
         <!-- recent searches -->
         <section class="recent-search">
             <h6>Recent Searches</h6>
         </section>
         <section class="recent-city">
         </section>
-    </section>
-    <section class="row">
-        <section class="col-md-12">
-            <section class="card">
-                <section id="currentWeather" class="card-body">
+        </section>
+        <section class="row">
+            <section class="col-md-12">
+                <section class="card">
+                    <section id="weather" class="card-body">
+                    </section>
                 </section>
+            </section>
+        </section>
+
+        <!-- 5-day forecast -->
+      
+        <section class="row">
+            <section class="col-md-12">
+                <p><h2>5-Day Forecast</h2></p>
+            </section>
+            <section class="weather-cards col-md-12">
+
+                <section id="one" class="card-body mb-3"></section>
+                <section id="two" class="card-body mb-3"></section>
+                <section id="three" class="card-body mb-3"></section>
+                <section id="four" class="card-body mb-3"></section>
+                <section id="five" class="card-body mb-3"></section>
+
             </section>
         </section>
     </section>
     </div>
-
-    <!-- 5-day forecast -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
