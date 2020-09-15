@@ -20,30 +20,27 @@
     <!-- recent search list -->
     <div class="sidebar pl-2">
         <h5>Search for a city:</h5>
-            <form class="form-inline" id="CityForm">
-            <input class="form-control mr-sm-2" type="search" placeholder="City..." aria-label="Search" id="CityInput">
-            <button class="btn btn-outline-dark my-2 my-sm-0 mb-3" type="submit" id="searchBtn">Search</button>
+            <form class="form-inline" id="searchTerm">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" id="citySearch">
+            <button class="btn btn-outline-dark my-2 my-sm-0 mb-3" type="submit" id="citySearch">Search</button>
             </form>
             <div class="newCityList">
             </div>
     </div>
     
-
-
-
             <!-- 5-day forecast -->
             <div class="container">
-            <section class="weather-cards">
+            <div id="weatherCards">
                 <p>
                 <h2 style="text-align: center;">5-Day Forecast</h2>
                 </p>
                 <section class="cards">
                     <section class="row">
-                        <section id="one" class="cols-sm-2" class="card-body mb-3"></section>
-                        <section id="two" class="cols-sm-2" class="card-body mb-3"></section>
-                        <section id="three" class="cols-sm-2" class="card-body mb-3"></section>
-                        <section id="four" class="cols-sm-2" class="card-body mb-3"></section>
-                        <section id="five" class="cols-sm-2" class="card-body mb-3"></section>
+                        <section id="dayOne" class="cols-sm-2" class="card-body mb-3"></section>
+                        <section id="dayTwo" class="cols-sm-2" class="card-body mb-3"></section>
+                        <section id="dayThree" class="cols-sm-2" class="card-body mb-3"></section>
+                        <section id="dayFour" class="cols-sm-2" class="card-body mb-3"></section>
+                        <section id="dayFive" class="cols-sm-2" class="card-body mb-3"></section>
                     </section>
                 </section>
             </section>
