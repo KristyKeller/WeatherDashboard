@@ -17,56 +17,42 @@
     </header>
 
     <!-- search for weather location -->
-    <div class="container">
-        <section class="row">
-            <section class="col-md-12">
-        <section class="search-button">
-            <h5>Search for a city:</h5>
-        </section>
-        <section class="search-button">
-            <form class="form-inline my-2">
-                <input id="searchCity" class="form-control mr-sm-2" type="text" placeholder="Enter city...">
-                <button id="searchBtn" class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    <!-- recent search list -->
+    <div class="sidebar pl-2">
+        <h5>Search for a city:</h5>
+            <form class="form-inline" id="CityForm">
+            <input class="form-control mr-sm-2" type="search" placeholder="City..." aria-label="Search" id="CityInput">
+            <button class="btn btn-outline-dark my-2 my-sm-0 mb-3" type="submit" id="searchBtn">Search</button>
             </form>
-        </section>
-            </section>
-        </section>
-        
-        <!-- recent searches -->
-        <section class="recent-search">
-            <h6>Recent Searches</h6>
-        </section>
-        <section class="recent-city">
-        </section>
-        </section>
-        <section class="row">
-            <section class="col-md-12">
-                <section class="card">
-                    <section id="weather" class="card-body">
+            <div class="newCityList">
+            </div>
+    </div>
+    
+
+
+
+            <!-- 5-day forecast -->
+            <div class="container">
+            <section class="weather-cards">
+                <p>
+                <h2 style="text-align: center;">5-Day Forecast</h2>
+                </p>
+                <section class="cards">
+                    <section class="row">
+                        <section id="one" class="cols-sm-2" class="card-body mb-3"></section>
+                        <section id="two" class="cols-sm-2" class="card-body mb-3"></section>
+                        <section id="three" class="cols-sm-2" class="card-body mb-3"></section>
+                        <section id="four" class="cols-sm-2" class="card-body mb-3"></section>
+                        <section id="five" class="cols-sm-2" class="card-body mb-3"></section>
                     </section>
                 </section>
             </section>
-        </section>
+            </div>
 
-        
-        <!-- 5-day forecast -->
-        <section class= "weather-cards">
-                <p><h2>5-Day Forecast</h2></p>
-                <section class="cards">
-                    <section class= "row">
-                <section id="one" class= "cols-sm-2" class="card-body mb-3"></section>
-                <section id="two" class= "cols-sm-2" class="card-body mb-3"></section>
-                <section id="three" class="cols-sm-2" class="card-body mb-3"></section>
-                <section id="four" class="cols-sm-2" class="card-body mb-3"></section>
-                <section id="five" class="cols-sm-2" class="card-body mb-3"></section>
-            </section>
-        </section>
-        </section>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="script.js"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+            <script src="script.js"></script>
 </body>
 
 </html>
