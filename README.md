@@ -12,3 +12,4 @@ A weather dashboard that allows the user to search for a city that is then displ
 ## Built With
 * OpenWeatherMap API
 * Bootstrap 
+* Moment.js
