@@ -18,38 +18,44 @@
 
     <!-- search for weather location -->
     <!-- recent search list -->
-    <div class="sidebar pl-2">
-        <h5>Search for a city:</h5>
-            <form class="form-inline" id="searchTerm">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" id="citySearch">
-            <button class="btn btn-outline-dark my-2 my-sm-0 mb-3" type="submit" id="citySearch">Search</button>
-            </form>
-            <div class="newCityList">
-            </div>
+    <div container>
+    <div class="col-md-12">
+        <h4>Search for a City:</h4>
+      </div>
+      <div class="col-md-12">
+        <form id="searchTerm" class="example">
+          <input id="city" type="text" placeholder="Search city..." name="search">
+          <button class="btn btn-outline-dark my-2 my-sm-0 mb-3" type="submit" id="citySearch">Search</button>
+        </form>
+        <br>
+      </div>
+      <div class="col-md-12 recentCities">
+      </div>
     </div>
-    
-            <!-- 5-day forecast -->
-            <div class="container">
-            <div id="weatherCards">
-                <p>
-                <h2 style="text-align: center;">5-Day Forecast</h2>
-                </p>
-                <section class="cards">
-                    <section class="row">
-                        <section id="dayOne" class="cols-sm-2" class="card-body mb-3"></section>
-                        <section id="dayTwo" class="cols-sm-2" class="card-body mb-3"></section>
-                        <section id="dayThree" class="cols-sm-2" class="card-body mb-3"></section>
-                        <section id="dayFour" class="cols-sm-2" class="card-body mb-3"></section>
-                        <section id="dayFive" class="cols-sm-2" class="card-body mb-3"></section>
-                    </section>
-                </section>
-            </section>
-            </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div id="currentWeather" class="card-body">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-12">     <h2>5-Day Forecast</h2>
+      </div>
+        <div id="dayOne" class="card-body"></div>
+        <div id="dayTwo" class="card-body"></div>
+        <div id="dayThree" class="card-body"></div>
+        <div id="dayFour" class="card-body"></div>
+        <div id="dayFive" class="card-body"></div>
+    </div>
+      </div>
+    </div>
+  </div>
 
 
             <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
             <script src="script.js"></script>
 </body>
-
-</html>
