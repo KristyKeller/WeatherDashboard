@@ -1,6 +1,6 @@
 # 🌤️ Weather Dashboard
 
-### [CLICK HERE TO VIEW LIVE SITE](https://kristykeller.github.io/WeatherDashboard/)
+[CLICK HERE TO VIEW LIVE SITE](https://kristykeller.github.io/WeatherDashboard/)
 
 ## User Story
 ```
